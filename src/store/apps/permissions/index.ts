@@ -17,6 +17,8 @@ export const fetchData = createAsyncThunk('appPermissions/fetchData', async (par
   return response.data
 })
 
+//added comments
+
 export const appPermissionsSlice = createSlice({
   name: 'appPermissions',
   initialState: {
