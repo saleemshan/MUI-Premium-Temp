@@ -40,7 +40,7 @@ const CardWidgetsWeeklyOverview = () => {
     grid: {
       strokeDashArray: 7,
       padding: { left: -9 },
-      borderColor: theme.palette.divider
+      borderColor: 'linear-gradient(180deg, #AAA 0%, rgba(118, 118, 118, 0.50) 100%)'
     },
     dataLabels: { enabled: false },
     colors: [
